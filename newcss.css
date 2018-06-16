@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 12, 2018, 8:37:17 AM
+    Author     : Monty
+*/
+* {
+    font-family: sans-serif;
+}
+#Background {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#nav {
+    position: relative;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: green;
+}
+#nav a {
+    font-size: 20px;
+}
+#Headshot {
+    margin-top: 40px;
+}
+#Headshot img{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#Headshot img:hover {
+    transform: scale(1,1.5) rotate(15deg);
+}
+#nav h1 {
+    position: relative;
+    float: right;
+    margin-top: 0px;
+}
+#Container {
+    position: relative;
+    width: 100%;
+    font-size: 22px;
+    margin-top: 50px;
+}
+#Container p {
+    display: inline;
+}
+#left {
+    position: relative;
+    width: 30%;
+    height: 00px;
+    float: left;
+}
+#center {
+    position: relative;
+    width: 30%;
+    height: 00px;
+    margin: auto;
+}
+#right {
+    position: relative;
+    width: 20%;
+    height: 200px;
+    float: right;
+}
+.dark {
+    background-color: red;
+    margin-bottom: 10px;
+}
+.light {
+    background-color: wheat;
+}
+#quote {
+    position: relative;
+    margin-top: 350px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.Span {
+    color: red;
+    font-weight: bold;
+}
+table {
+    border: 0px;
+    align-content: center;
+}
